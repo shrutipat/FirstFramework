@@ -1,0 +1,7 @@
+com\demo\nopcommerce\pageobject\ComputerPage.class
+com\demo\nopcommerce\basepage\BasePage.class
+com\demo\nopcommerce\pageobject\HomePage.class
+com\demo\nopcommerce\properties\LoadProperty.class
+com\demo\nopcommerce\pageobject\LoginPage.class
+com\demo\nopcommerce\utility\Util.class
+com\demo\nopcommerce\browserselector\BrowserSelector.class

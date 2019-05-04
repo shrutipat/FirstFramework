@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-05-04T15:15:20Z" name="Surefire suite" finished-at="2019-05-04T15:16:04Z" duration-ms="44357">
+    <groups>
+    </groups>
+    <test started-at="2019-05-04T15:15:20Z" name="Surefire test" finished-at="2019-05-04T15:16:04Z" duration-ms="44357">
+      <class name="com.demo.nopcommerce.webpages.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:15:20Z" name="setUp" finished-at="2019-05-04T15:15:44Z" duration-ms="24242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:15:44Z" name="loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid" finished-at="2019-05-04T15:15:49Z" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:15:49Z" name="tearDown" finished-at="2019-05-04T15:15:50Z" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:15:50Z" name="setUp" finished-at="2019-05-04T15:16:02Z" duration-ms="11871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userShouldLoginSuccessfully()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:16:02Z" name="userShouldLoginSuccessfully" finished-at="2019-05-04T15:16:03Z" duration-ms="1484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldLoginSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.nopcommerce.webpages.LoginTest@9f116cc]" started-at="2019-05-04T15:16:03Z" name="tearDown" finished-at="2019-05-04T15:16:04Z" duration-ms="783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.nopcommerce.webpages.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
