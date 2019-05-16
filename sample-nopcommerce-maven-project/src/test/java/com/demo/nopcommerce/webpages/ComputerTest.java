@@ -13,12 +13,12 @@ public class ComputerTest extends TestBase {
     DesktopPage desktopPage = new DesktopPage();
 
     @Test
-    public void userShouldNavigateToDesktopPageSuccessfully(){
+    public void userShouldNavigateToDesktopPageSuccessfully() {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
         String actualText = desktopPage.getDesktopText();
         String expectedText = "Desktops";
-        Assert.assertEquals(actualText,expectedText);
+        Assert.assertEquals(actualText, expectedText);
     }
 
 }

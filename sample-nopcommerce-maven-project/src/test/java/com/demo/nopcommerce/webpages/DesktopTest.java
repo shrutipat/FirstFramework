@@ -42,6 +42,4 @@ public class DesktopTest extends TestBase {
         Thread.sleep(2000);
         Assert.assertTrue(buildYourOwnPage.checkIfItemIsAddedSuccessfully());
     }
-
-
 }

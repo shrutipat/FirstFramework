@@ -9,10 +9,10 @@ public class BrowserSelector extends BasePage {
 
     public void selectBrowser(String browser) {
         if (browser.equalsIgnoreCase("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\Archita\\IdeaProjects\\sample-nopcommerce-maven-project\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\driver\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\driver\\chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "C:\\Users\\Archita\\IdeaProjects\\sample-nopcommerce-maven-project\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\driver\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\driver\\geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("ie")) {
             System.setProperty("webdriver.ie.driver", "resources\\drivers\\IEDriverServer.exe");

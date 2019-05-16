@@ -1,0 +1,23 @@
+2019-05-16 08:05:412 INFO  HomePage :29 - click on register link
+2019-05-16 08:05:316 INFO  HomePage :98 - get register page text
+2019-05-16 08:05:716 INFO  HomePage :44 - click on computers
+2019-05-16 08:05:631 INFO  HomePage :24 - get computer page text
+2019-05-16 08:05:505 INFO  HomePage :24 - click on login link
+2019-05-16 08:05:548 INFO  HomePage :33 - get welcome text
+2019-05-16 08:05:622 INFO  HomePage :24 - click on login link
+2019-05-16 08:05:383 INFO  HomePage :18 - enter email address
+2019-05-16 08:05:780 INFO  HomePage :23 - enter password
+2019-05-16 08:05:976 INFO  HomePage :28 - click on login button
+2019-05-16 08:05:394 INFO  HomePage :44 - click on computers
+2019-05-16 08:05:768 INFO  HomePage :29 - click on desktop image
+2019-05-16 08:05:41 INFO  HomePage :39 - get desktop text
+2019-05-16 08:05:944 INFO  HomePage :44 - click on computers
+2019-05-16 08:05:793 INFO  HomePage :29 - click on desktop image
+2019-05-16 08:05:166 INFO  HomePage :34 - click on add to cart button
+2019-05-16 08:05:306 INFO  HomePage :18 - get build you own page text
+2019-05-16 08:05:625 INFO  HomePage :44 - click on computers
+2019-05-16 08:05:107 INFO  HomePage :29 - click on desktop image
+2019-05-16 08:05:597 INFO  HomePage :34 - click on add to cart button
+2019-05-16 08:05:723 INFO  HomePage :23 - click on hdd 320GB
+2019-05-16 08:05:918 INFO  HomePage :33 - click on add to cart
+2019-05-16 08:05:10 INFO  HomePage :28 - check if item is added successfully

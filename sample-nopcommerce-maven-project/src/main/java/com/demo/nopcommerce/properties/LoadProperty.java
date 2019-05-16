@@ -14,7 +14,7 @@ public class LoadProperty {
         prop = new Properties();
 
         try {
-            input = new FileInputStream("C:\\Users\\Archita\\IdeaProjects\\sample-nopcommerce-maven-project\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\configfile\\config.properties");
+            input = new FileInputStream(System.getProperty("user.dir") + "\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\configfile\\config.properties");
             prop.load(input);
         } catch (IOException e) {
             e.printStackTrace();

@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="720ebbf2-bc75-426f-9a53-c50c95f90ac4" name="Default Changelist" comment="" />
+    <list default="true" id="720ebbf2-bc75-426f-9a53-c50c95f90ac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/log.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/TestSuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample-nopcommerce-maven-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/BuildYourOwnPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/BuildYourOwnPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/DesktopPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/DesktopPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/driver/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/driver/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ComputerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/DesktopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/DesktopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/browserselector/BrowserSelector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/browserselector/BrowserSelector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/BuildYourOwnPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/BuildYourOwnPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/ComputerPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/ComputerPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/DesktopPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/DesktopPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/RegistrationPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/pageobject/RegistrationPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/properties/LoadProperty.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/properties/LoadProperty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Util.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/demo/nopcommerce/utility/Util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/sample-nopcommerce-maven-project.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/testbase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/demo/nopcommerce/testbase/TestBase.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +48,98 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/TestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/log.out">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/DesktopTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ComputerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-97">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -23,27 +148,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/basepage/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/webpages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/LoginTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Util.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/HomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/RegistrationPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/DesktopPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/BuildYourOwnPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/TestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/DesktopTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ComputerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java" />
       </list>
     </option>
   </component>
@@ -76,16 +206,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="width" value="781" />
+    <option name="x" value="656" />
+    <option name="y" value="2" />
+    <option name="width" value="714" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,20 +229,160 @@
               <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="browserselector" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="testbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample-nopcommerce-maven-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sample-nopcommerce-maven-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nopcommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="webpages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557012482263" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557990430039" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/sample-nopcommerce-maven-project" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Archita\FirstFramework\sample-nopcommerce-maven-project\src\test\java\com\demo\nopcommerce\resources\driver" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -125,7 +396,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ComputerTest">
+  <component name="RunManager" selected="TestNG.TestSuit">
     <configuration name="ComputerTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="sample-nopcommerce-maven-project" />
       <extension name="coverage">
@@ -137,24 +408,6 @@
       <option name="PACKAGE_NAME" value="com.demo.nopcommerce.webpages" />
       <option name="MAIN_CLASS_NAME" value="com.demo.nopcommerce.webpages.ComputerTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ComputerTest.userShouldNavigateToComputerPageSuccessfully" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="sample-nopcommerce-maven-project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.nopcommerce.webpages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.nopcommerce.webpages" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.nopcommerce.webpages.ComputerTest" />
-      <option name="METHOD_NAME" value="userShouldNavigateToComputerPageSuccessfully" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -213,13 +466,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSuit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sample-nopcommerce-maven-project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.nopcommerce.webpages.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.nopcommerce.webpages" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.nopcommerce.webpages.TestSuit" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestSuit" />
         <item itemvalue="TestNG.ComputerTest" />
         <item itemvalue="TestNG.DesktopTest" />
         <item itemvalue="TestNG.DesktopTest.desktopShouldAddToBasketSuccessfully" />
         <item itemvalue="TestNG.HomeTest" />
-        <item itemvalue="TestNG.ComputerTest.userShouldNavigateToComputerPageSuccessfully" />
       </list>
     </recent_temporary>
   </component>
@@ -237,12 +507,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DesktopTest - 2019.05.04 at 23h 55m 03s.xml">
-      <configuration name="DesktopTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="DesktopTest - 2019.05.05 at 00h 01m 01s.xml">
-      <configuration name="DesktopTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="DesktopTest_desktopShouldAddToBasketSuccessfully - 2019.05.05 at 00h 16m 13s.xml">
       <configuration name="DesktopTest.desktopShouldAddToBasketSuccessfully" configurationId="TestNG" />
     </history-entry>
@@ -267,6 +531,12 @@
     <history-entry file="ComputerTest - 2019.05.05 at 00h 28m 13s.xml">
       <configuration name="ComputerTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestSuit - 2019.05.16 at 08h 04m 20s.xml">
+      <configuration name="TestSuit" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSuit - 2019.05.16 at 08h 07m 28s.xml">
+      <configuration name="TestSuit" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,8 +549,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +567,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -346,34 +617,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/webpages.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -381,108 +624,140 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ApparelPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ApparelPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ElectronicsPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/RegistrationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/AppTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/log4j/properties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ElectronicsPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/resources/configfile/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/RegistrationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1684">
-          <caret line="107" column="15" lean-forward="true" selection-start-line="107" selection-start-column="15" selection-end-line="107" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/RegistrationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="69" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="20" selection-end-column="69" />
+        <state relative-caret-position="192">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="92" lean-forward="true" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
+        <state relative-caret-position="-692">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/RegistrationPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/BuildYourOwnPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="1649">
+          <caret line="97" column="35" selection-start-line="97" selection-start-column="35" selection-end-line="97" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/DesktopPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="243">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/ComputerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/pageobject/BuildYourOwnPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/utility/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/HomeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/DesktopTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="209">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/ComputerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+        <state relative-caret-position="328">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/testbase/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/properties/LoadProperty.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/browserselector/BrowserSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/demo/nopcommerce/webpages/TestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/demo/nopcommerce/logs/log.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>

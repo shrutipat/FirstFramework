@@ -17,7 +17,7 @@ public class HomeTest extends TestBase {
     LoginPage loginPage = new LoginPage();
 
     @Test
-    public void userShouldNavigateToRegistrationPageSuccessfully(){
+    public void userShouldNavigateToRegistrationPageSuccessfully() {
         homePage.clickOnRegisterLink();
         String expectedText = "Register";
         String actualText = registrationPage.getRegisterText();
@@ -25,15 +25,15 @@ public class HomeTest extends TestBase {
     }
 
     @Test
-    public void userShouldNavigateToComputerPageSuccessfully(){
+    public void userShouldNavigateToComputerPageSuccessfully() {
         homePage.clickOnComputers();
         String actualText = computerPage.getComputerText();
         String expectedText = "Computers";
-        Assert.assertEquals(actualText,expectedText);
+        Assert.assertEquals(actualText, expectedText);
     }
 
     @Test
-    public void userShouldNavigateToLoginPageSuccessfully(){
+    public void userShouldNavigateToLoginPageSuccessfully() {
         homePage.clickOnLoginLink();
         String text = loginPage.getWelcomeText();
         Assert.assertTrue(text.equals("Welcome, Please Sign In!"));
