@@ -21,6 +21,7 @@ public class RegistrationPage extends Util {
     By newsLetter = By.id("Newsletter");
     By registerBtn = By.id("register-button");
     By registerText = By.xpath("//h1[contains(text(),'Register')]");
+    By registrationSuccessfulText = By.xpath("//div[@class='result']");
 
     private static final Logger log = LogManager.getLogger(HomePage.class.getName());
 
@@ -49,17 +50,17 @@ public class RegistrationPage extends Util {
         sendTextToElement(lastName, str);
     }
 
-    public void selectDateOfBirth(int i) {
+    public void selectDateOfBirthByIndex(int i) {
         log.info("select date of birth");
         select_By_Index(dateOfBirth, i);
     }
 
-    public void selectMonthOfBirth(int i) {
+    public void selectMonthOfBirthByIndex(int i) {
         log.info("select month of birth");
         select_By_Index(monthOfBirth, i);
     }
 
-    public void selectYearOfBirth(int i) {
+    public void selectYearOfBirthByIndex(int i) {
         log.info("select year of birth");
         select_By_Index(yearOfBirth, i);
     }
@@ -97,6 +98,11 @@ public class RegistrationPage extends Util {
     public String getRegisterText() {
         log.info("get register page text");
         return getTextFromElement(registerText);
+    }
+
+    public String getRegistrationSuccessfulText() {
+        log.info("get registration successful text");
+        return getTextFromElement(registrationSuccessfulText);
     }
 
 }

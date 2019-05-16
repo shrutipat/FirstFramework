@@ -9,6 +9,11 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 public class TestSuit extends TestBase {
 
     HomePage homePage = new HomePage();
@@ -22,7 +27,7 @@ public class TestSuit extends TestBase {
 
 
     //From home page user should navigate to registration page successfully
-    @Test(priority = 0)
+    @Test
     public void userShouldNavigateToRegistrationPageSuccessfully() {
         homePage.clickOnRegisterLink();
         String expectedText = "Register";
@@ -32,17 +37,32 @@ public class TestSuit extends TestBase {
         logger.debug("Hello World!");
     }
 
-    // From home page user should navigate to computer page successfully
-    @Test(priority = 1)
-    public void userShouldNavigateToComputerPageSuccessfully() {
-        homePage.clickOnComputers();
-        String actualText = computerPage.getComputerText();
-        String expectedText = "Computers";
+    //User should be able to register successfully
+    @Test
+    public void userShouldRegisterSuccessfully() throws InterruptedException{
+        homePage.clickOnRegisterLink();
+        registrationPage.clickOnFemale();
+        registrationPage.enterFirstName("My first name");
+        registrationPage.enterLastName("My last name");
+        registrationPage.selectDateOfBirthByIndex(10);
+        registrationPage.selectMonthOfBirthByIndex(10);
+        registrationPage.selectYearOfBirthByIndex(10);
+        registrationPage.enterAutoEmail();
+        registrationPage.enterCompanyName("My company name");
+        registrationPage.enterPassword("abcxyz");
+        registrationPage.enterConfirmPassword("abcxyz");
+        registrationPage.clickOnRegisterBtn();
+
+        Thread.sleep(2000);
+
+        String expectedText = "Your registration completed";
+        String actualText = registrationPage.getRegistrationSuccessfulText();
         Assert.assertEquals(actualText, expectedText);
+
     }
 
     // From home page user should navigate to login page successfully
-    @Test(priority = 2)
+    @Test
     public void userShouldNavigateToLoginPageSuccessfully() {
         homePage.clickOnLoginLink();
         String text = loginPage.getWelcomeText();
@@ -50,7 +70,7 @@ public class TestSuit extends TestBase {
     }
 
     //Login should fail and error message should appear when login is invalid
-    @Test(priority = 3)
+    @Test
     public void loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid() {
         homePage.clickOnLoginLink();
         loginPage.enterEmail("abcd@abc.com");
@@ -60,8 +80,17 @@ public class TestSuit extends TestBase {
         org.junit.Assert.assertTrue("No customer account found", text.isDisplayed());
     }
 
+    // From home page user should navigate to computer page successfully
+    @Test
+    public void userShouldNavigateToComputerPageSuccessfully() {
+        homePage.clickOnComputers();
+        String actualText = computerPage.getComputerText();
+        String expectedText = "Computers";
+        Assert.assertEquals(actualText, expectedText);
+    }
+
     // User should navigate to desktop page successfully
-    @Test(priority = 4)
+    @Test
     public void userShouldNavigateToDesktopPageSuccessfully() {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -71,7 +100,7 @@ public class TestSuit extends TestBase {
     }
 
     // User should navigate to build your own page successfully
-    @Test(priority = 5)
+    @Test
     public void userShouldNavigateToBuildYourOwnPageSuccessfully() {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -83,7 +112,7 @@ public class TestSuit extends TestBase {
     }
 
     // Desktop item should be added to basket successfully
-    @Test(priority = 6)
+    @Test
     public void desktopShouldAddToBasketSuccessfully() throws InterruptedException {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -97,6 +126,43 @@ public class TestSuit extends TestBase {
         buildYourOwnPage.clickOnAddtoCart();
         Thread.sleep(2000);
         Assert.assertTrue(buildYourOwnPage.checkIfItemIsAddedSuccessfully());
+    }
+
+
+    @Test
+    public void userShouldBeAbleToSelectZtoA() throws InterruptedException {
+        homePage.clickOnComputers();
+        computerPage.clickOnDesktopImage();
+        desktopPage.scrollUpDown(500);
+        Thread.sleep(3000);
+        //fetch and store list of items in array list
+        List<WebElement> list = driver.findElements(By.xpath("//div[@class='item-grid']/descendant::h2[@class='product-title']"));
+
+        // Assign titles to String Array List
+        ArrayList<String> sortedNames = new ArrayList<>();
+        for (int i = 0; i < list.size(); i++) {
+            sortedNames.add(list.get(i).getText());
+        }
+
+        // Re-arrange the original String Array in descending order
+        Collections.sort(sortedNames, new Comparator<String>() {
+            @Override
+            public int compare(String s1, String s2) {
+                return Integer.valueOf(s2.compareTo(s1));
+            }
+        });
+
+        desktopPage.clickOnSortByDropDown();
+        desktopPage.select_ZToA();
+        desktopPage.scrollUpDown(500);
+        Thread.sleep(1000);
+        List<WebElement> listZToA = driver.findElements(By.xpath("//div[@class='item-grid']/descendant::h2[@class='product-title']"));
+        Thread.sleep(1000);
+
+        //verify that is sorted names is matching actual names after clicking Z to A
+        for (int i = 0; i < listZToA.size(); i++) {
+            Assert.assertEquals(sortedNames.get(i), listZToA.get(i).getText());
+        }
     }
 
 }

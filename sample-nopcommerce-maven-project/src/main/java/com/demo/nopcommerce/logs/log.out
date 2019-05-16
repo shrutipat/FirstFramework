@@ -21,3 +21,220 @@
 2019-05-16 08:05:723 INFO  HomePage :23 - click on hdd 320GB
 2019-05-16 08:05:918 INFO  HomePage :33 - click on add to cart
 2019-05-16 08:05:10 INFO  HomePage :28 - check if item is added successfully
+2019-05-16 09:05:937 INFO  HomePage :44 - click on computers
+2019-05-16 09:05:475 INFO  HomePage :24 - get computer page text
+2019-05-16 10:05:802 INFO  HomePage :29 - click on register link
+2019-05-16 10:05:722 INFO  HomePage :99 - get register page text
+2019-05-16 10:05:136 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:719 INFO  HomePage :24 - get computer page text
+2019-05-16 10:05:46 INFO  HomePage :24 - click on login link
+2019-05-16 10:05:812 INFO  HomePage :33 - get welcome text
+2019-05-16 10:05:198 INFO  HomePage :24 - click on login link
+2019-05-16 10:05:976 INFO  HomePage :18 - enter email address
+2019-05-16 10:05:399 INFO  HomePage :23 - enter password
+2019-05-16 10:05:523 INFO  HomePage :28 - click on login button
+2019-05-16 10:05:216 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:990 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:307 INFO  HomePage :39 - get desktop text
+2019-05-16 10:05:889 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:333 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:717 INFO  HomePage :34 - click on add to cart button
+2019-05-16 10:05:871 INFO  HomePage :18 - get build you own page text
+2019-05-16 10:05:951 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:401 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:113 INFO  HomePage :34 - click on add to cart button
+2019-05-16 10:05:123 INFO  HomePage :23 - click on hdd 320GB
+2019-05-16 10:05:234 INFO  HomePage :33 - click on add to cart
+2019-05-16 10:05:342 INFO  HomePage :28 - check if item is added successfully
+2019-05-16 10:05:518 INFO  HomePage :29 - click on register link
+2019-05-16 10:05:301 INFO  HomePage :39 - click on female
+2019-05-16 10:05:441 INFO  HomePage :44 - enter first name
+2019-05-16 10:05:626 INFO  HomePage :49 - enter last name
+2019-05-16 10:05:798 INFO  HomePage :54 - select date of birth
+2019-05-16 10:05:404 INFO  HomePage :59 - select month of birth
+2019-05-16 10:05:650 INFO  HomePage :64 - select year of birth
+2019-05-16 10:05:932 INFO  HomePage :69 - enter auto email
+2019-05-16 10:05:933 INFO  HomePage :29 - random email generated
+2019-05-16 10:05:239 INFO  HomePage :84 - enter company name
+2019-05-16 10:05:494 INFO  HomePage :74 - enter password
+2019-05-16 10:05:639 INFO  HomePage :79 - enter confirm password
+2019-05-16 10:05:803 INFO  HomePage :94 - click on register button
+2019-05-16 10:05:101 INFO  HomePage :104 - get registration successful text
+2019-05-16 10:05:698 INFO  HomePage :29 - click on register link
+2019-05-16 10:05:388 INFO  HomePage :39 - click on female
+2019-05-16 10:05:485 INFO  HomePage :44 - enter first name
+2019-05-16 10:05:730 INFO  HomePage :49 - enter last name
+2019-05-16 10:05:945 INFO  HomePage :54 - select date of birth
+2019-05-16 10:05:308 INFO  HomePage :59 - select month of birth
+2019-05-16 10:05:567 INFO  HomePage :64 - select year of birth
+2019-05-16 10:05:866 INFO  HomePage :69 - enter auto email
+2019-05-16 10:05:866 INFO  HomePage :29 - random email generated
+2019-05-16 10:05:138 INFO  HomePage :84 - enter company name
+2019-05-16 10:05:327 INFO  HomePage :74 - enter password
+2019-05-16 10:05:454 INFO  HomePage :79 - enter confirm password
+2019-05-16 10:05:572 INFO  HomePage :94 - click on register button
+2019-05-16 10:05:601 INFO  HomePage :104 - get registration successful text
+2019-05-16 10:05:147 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:637 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:405 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 10:05:528 INFO  HomePage :24 - select Z to A
+2019-05-16 10:05:812 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:215 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:10 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 10:05:118 INFO  HomePage :24 - select Z to A
+2019-05-16 10:05:957 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:314 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:519 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 10:05:639 INFO  HomePage :24 - select Z to A
+2019-05-16 10:05:307 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:805 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:159 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 10:05:284 INFO  HomePage :24 - select Z to A
+2019-05-16 10:05:924 INFO  HomePage :44 - click on computers
+2019-05-16 10:05:440 INFO  HomePage :29 - click on desktop image
+2019-05-16 10:05:693 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 10:05:814 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:678 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:770 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:72 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:735 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:103 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:875 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:11 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:361 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:87 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:432 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:806 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:870 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:784 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:168 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:660 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:143 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:723 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:912 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:390 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:20 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:401 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:235 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:419 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:311 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:909 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:507 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:674 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:537 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:931 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:443 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:585 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:35 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:522 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:239 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:416 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:551 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:708 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:201 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:321 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:640 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:222 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:291 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:435 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:963 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:381 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:915 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:44 INFO  HomePage :24 - select Z to A
+2019-05-16 12:05:641 INFO  HomePage :44 - click on computers
+2019-05-16 12:05:292 INFO  HomePage :29 - click on desktop image
+2019-05-16 12:05:385 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 12:05:521 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:174 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:576 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:208 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:320 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:244 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:674 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:336 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:530 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:735 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:844 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:856 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:15 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:965 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:421 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:272 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:601 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:137 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:616 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:222 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:432 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:633 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:892 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:130 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:261 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:856 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:741 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:06 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:149 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:797 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:223 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:355 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:446 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:158 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:140 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:510 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 13:05:311 INFO  HomePage :24 - select Z to A
+2019-05-16 13:05:731 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:729 INFO  HomePage :29 - click on desktop image
+2019-05-16 13:05:337 INFO  HomePage :44 - click on computers
+2019-05-16 13:05:07 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:733 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:637 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:710 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:330 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:587 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:93 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:786 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:527 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:686 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:122 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:301 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 14:05:806 INFO  HomePage :24 - select Z to A
+2019-05-16 14:05:359 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:211 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:63 INFO  HomePage :34 - click on add to cart button
+2019-05-16 14:05:93 INFO  HomePage :23 - click on hdd 320GB
+2019-05-16 14:05:300 INFO  HomePage :33 - click on add to cart
+2019-05-16 14:05:409 INFO  HomePage :28 - check if item is added successfully
+2019-05-16 14:05:649 INFO  HomePage :24 - click on login link
+2019-05-16 14:05:413 INFO  HomePage :18 - enter email address
+2019-05-16 14:05:785 INFO  HomePage :23 - enter password
+2019-05-16 14:05:936 INFO  HomePage :28 - click on login button
+2019-05-16 14:05:109 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:452 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:149 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 14:05:301 INFO  HomePage :24 - select Z to A
+2019-05-16 14:05:827 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:293 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:671 INFO  HomePage :34 - click on add to cart button
+2019-05-16 14:05:852 INFO  HomePage :18 - get build you own page text
+2019-05-16 14:05:119 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:569 INFO  HomePage :24 - get computer page text
+2019-05-16 14:05:641 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:246 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:443 INFO  HomePage :39 - get desktop text
+2019-05-16 14:05:946 INFO  HomePage :24 - click on login link
+2019-05-16 14:05:378 INFO  HomePage :33 - get welcome text
+2019-05-16 14:05:17 INFO  HomePage :29 - click on register link
+2019-05-16 14:05:256 INFO  HomePage :99 - get register page text
+2019-05-16 14:05:890 INFO  HomePage :29 - click on register link
+2019-05-16 14:05:288 INFO  HomePage :39 - click on female
+2019-05-16 14:05:397 INFO  HomePage :44 - enter first name
+2019-05-16 14:05:662 INFO  HomePage :49 - enter last name
+2019-05-16 14:05:868 INFO  HomePage :54 - select date of birth
+2019-05-16 14:05:162 INFO  HomePage :59 - select month of birth
+2019-05-16 14:05:385 INFO  HomePage :64 - select year of birth
+2019-05-16 14:05:626 INFO  HomePage :69 - enter auto email
+2019-05-16 14:05:627 INFO  HomePage :29 - random email generated
+2019-05-16 14:05:908 INFO  HomePage :84 - enter company name
+2019-05-16 14:05:82 INFO  HomePage :74 - enter password
+2019-05-16 14:05:202 INFO  HomePage :79 - enter confirm password
+2019-05-16 14:05:314 INFO  HomePage :94 - click on register button
+2019-05-16 14:05:728 INFO  HomePage :104 - get registration successful text
