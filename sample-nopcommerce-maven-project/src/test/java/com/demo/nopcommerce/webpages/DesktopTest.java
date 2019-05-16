@@ -51,7 +51,7 @@ public class DesktopTest extends TestBase {
     }
 
     @Test
-    public void userShouldBeAbleToSelectZtoA() throws InterruptedException {
+    public void sortByZtoAShouldWorkSuccessfullyOnDesktopPage() throws InterruptedException {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
         desktopPage.scrollUpDown(500);

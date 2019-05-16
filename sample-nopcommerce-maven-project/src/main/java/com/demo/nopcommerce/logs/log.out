@@ -238,3 +238,44 @@
 2019-05-16 14:05:202 INFO  HomePage :79 - enter confirm password
 2019-05-16 14:05:314 INFO  HomePage :94 - click on register button
 2019-05-16 14:05:728 INFO  HomePage :104 - get registration successful text
+2019-05-16 14:05:471 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:545 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:157 INFO  HomePage :34 - click on add to cart button
+2019-05-16 14:05:497 INFO  HomePage :23 - click on hdd 320GB
+2019-05-16 14:05:608 INFO  HomePage :33 - click on add to cart
+2019-05-16 14:05:736 INFO  HomePage :28 - check if item is added successfully
+2019-05-16 14:05:465 INFO  HomePage :24 - click on login link
+2019-05-16 14:05:139 INFO  HomePage :18 - enter email address
+2019-05-16 14:05:834 INFO  HomePage :23 - enter password
+2019-05-16 14:05:21 INFO  HomePage :28 - click on login button
+2019-05-16 14:05:100 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:07 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:24 INFO  HomePage :19 - click on sort by drop down
+2019-05-16 14:05:444 INFO  HomePage :24 - select Z to A
+2019-05-16 14:05:696 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:190 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:940 INFO  HomePage :34 - click on add to cart button
+2019-05-16 14:05:57 INFO  HomePage :18 - get build you own page text
+2019-05-16 14:05:147 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:86 INFO  HomePage :24 - get computer page text
+2019-05-16 14:05:69 INFO  HomePage :44 - click on computers
+2019-05-16 14:05:69 INFO  HomePage :29 - click on desktop image
+2019-05-16 14:05:859 INFO  HomePage :39 - get desktop text
+2019-05-16 14:05:844 INFO  HomePage :24 - click on login link
+2019-05-16 14:05:635 INFO  HomePage :33 - get welcome text
+2019-05-16 14:05:620 INFO  HomePage :29 - click on register link
+2019-05-16 14:05:862 INFO  HomePage :99 - get register page text
+2019-05-16 14:05:210 INFO  HomePage :29 - click on register link
+2019-05-16 14:05:274 INFO  HomePage :39 - click on female
+2019-05-16 14:05:455 INFO  HomePage :44 - enter first name
+2019-05-16 14:05:880 INFO  HomePage :49 - enter last name
+2019-05-16 14:05:129 INFO  HomePage :54 - select date of birth
+2019-05-16 14:05:485 INFO  HomePage :59 - select month of birth
+2019-05-16 14:05:759 INFO  HomePage :64 - select year of birth
+2019-05-16 14:05:54 INFO  HomePage :69 - enter auto email
+2019-05-16 14:05:54 INFO  HomePage :29 - random email generated
+2019-05-16 14:05:346 INFO  HomePage :84 - enter company name
+2019-05-16 14:05:546 INFO  HomePage :74 - enter password
+2019-05-16 14:05:710 INFO  HomePage :79 - enter confirm password
+2019-05-16 14:05:846 INFO  HomePage :94 - click on register button
+2019-05-16 14:05:319 INFO  HomePage :104 - get registration successful text
