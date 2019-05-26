@@ -279,3 +279,160 @@
 2019-05-16 14:05:710 INFO  HomePage :79 - enter confirm password
 2019-05-16 14:05:846 INFO  HomePage :94 - click on register button
 2019-05-16 14:05:319 INFO  HomePage :104 - get registration successful text
+2019-05-26 11:05:925 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:971 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:960 INFO  HomePage :34 - click on add to cart button
+2019-05-26 11:05:429 INFO  HomePage :23 - click on hdd 320GB
+2019-05-26 11:05:944 INFO  HomePage :33 - click on add to cart
+2019-05-26 11:05:127 INFO  HomePage :28 - check if item is added successfully
+2019-05-26 11:05:575 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:553 INFO  HomePage :18 - enter email address
+2019-05-26 11:05:475 INFO  HomePage :23 - enter password
+2019-05-26 11:05:753 INFO  HomePage :28 - click on login button
+2019-05-26 11:05:256 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:321 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:708 INFO  HomePage :19 - click on sort by drop down
+2019-05-26 11:05:974 INFO  HomePage :24 - select Z to A
+2019-05-26 11:05:51 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:184 INFO  HomePage :18 - enter email address
+2019-05-26 11:05:770 INFO  HomePage :23 - enter password
+2019-05-26 11:05:14 INFO  HomePage :28 - click on login button
+2019-05-26 11:05:272 INFO  HomePage :47 - Verify that user is logged in successfully
+2019-05-26 11:05:227 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:925 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:110 INFO  HomePage :34 - click on add to cart button
+2019-05-26 11:05:963 INFO  HomePage :23 - click on hdd 320GB
+2019-05-26 11:05:91 INFO  HomePage :33 - click on add to cart
+2019-05-26 11:05:258 INFO  HomePage :28 - check if item is added successfully
+2019-05-26 11:05:300 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:155 INFO  HomePage :18 - enter email address
+2019-05-26 11:05:463 INFO  HomePage :23 - enter password
+2019-05-26 11:05:617 INFO  HomePage :28 - click on login button
+2019-05-26 11:05:778 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:961 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:77 INFO  HomePage :19 - click on sort by drop down
+2019-05-26 11:05:332 INFO  HomePage :24 - select Z to A
+2019-05-26 11:05:212 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:746 INFO  HomePage :18 - enter email address
+2019-05-26 11:05:919 INFO  HomePage :23 - enter password
+2019-05-26 11:05:84 INFO  HomePage :28 - click on login button
+2019-05-26 11:05:254 INFO  HomePage :47 - Verify that user is logged in successfully
+2019-05-26 11:05:413 INFO  HomePage :53 - click on apparel
+2019-05-26 11:05:848 INFO  HomePage :20 - Verify that User is on apparel page
+2019-05-26 11:05:849 INFO  HomePage :15 - Get Apparel Page Text
+2019-05-26 11:05:541 INFO  HomePage :63 - click on books
+2019-05-26 11:05:165 INFO  HomePage :20 - Verify that User is on Books Page
+2019-05-26 11:05:166 INFO  HomePage :15 - Get Books Page Text
+2019-05-26 11:05:420 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:469 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:271 INFO  HomePage :34 - click on add to cart button
+2019-05-26 11:05:392 INFO  HomePage :18 - get build you own page text
+2019-05-26 11:05:62 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:189 INFO  HomePage :24 - get computer page text
+2019-05-26 11:05:457 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:192 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:212 INFO  HomePage :39 - get desktop text
+2019-05-26 11:05:171 INFO  HomePage :58 - click on digital download
+2019-05-26 11:05:911 INFO  HomePage :20 - Verify that user is on digital download page
+2019-05-26 11:05:912 INFO  HomePage :15 - Get digital downloads page text
+2019-05-26 11:05:103 INFO  HomePage :48 - click on electronics
+2019-05-26 11:05:19 INFO  HomePage :19 - Verify that user is on electronics page
+2019-05-26 11:05:19 INFO  HomePage :14 - Get electronics page text
+2019-05-26 11:05:867 INFO  HomePage :73 - click on gift cards
+2019-05-26 11:05:441 INFO  HomePage :19 - Verify that user is on gifts cards page
+2019-05-26 11:05:441 INFO  HomePage :14 - Get gift cards page text
+2019-05-26 11:05:718 INFO  HomePage :68 - click on jewellery
+2019-05-26 11:05:827 INFO  HomePage :20 - Verify that user is on Jewellery Page
+2019-05-26 11:05:828 INFO  HomePage :15 - Get jewellery page text
+2019-05-26 11:05:437 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:259 INFO  HomePage :33 - get welcome text
+2019-05-26 11:05:955 INFO  HomePage :29 - click on register link
+2019-05-26 11:05:902 INFO  HomePage :99 - get register page text
+2019-05-26 11:05:415 INFO  HomePage :29 - click on register link
+2019-05-26 11:05:863 INFO  HomePage :39 - click on female
+2019-05-26 11:05:09 INFO  HomePage :44 - enter first name
+2019-05-26 11:05:432 INFO  HomePage :49 - enter last name
+2019-05-26 11:05:638 INFO  HomePage :54 - select date of birth
+2019-05-26 11:05:70 INFO  HomePage :59 - select month of birth
+2019-05-26 11:05:332 INFO  HomePage :64 - select year of birth
+2019-05-26 11:05:581 INFO  HomePage :69 - enter auto email
+2019-05-26 11:05:582 INFO  HomePage :29 - random email generated
+2019-05-26 11:05:974 INFO  HomePage :84 - enter company name
+2019-05-26 11:05:186 INFO  HomePage :74 - enter password
+2019-05-26 11:05:396 INFO  HomePage :79 - enter confirm password
+2019-05-26 11:05:527 INFO  HomePage :94 - click on register button
+2019-05-26 11:05:783 INFO  HomePage :104 - get registration successful text
+2019-05-26 11:05:184 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:127 INFO  HomePage :18 - enter email address
+2019-05-26 11:05:333 INFO  HomePage :23 - enter password
+2019-05-26 11:05:450 INFO  HomePage :28 - click on login button
+2019-05-26 11:05:120 INFO  HomePage :47 - Verify that user is logged in successfully
+2019-05-26 11:05:742 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:775 INFO  HomePage :19 - enter email address
+2019-05-26 11:05:33 INFO  HomePage :24 - enter password
+2019-05-26 11:05:167 INFO  HomePage :29 - click on login button
+2019-05-26 11:05:214 INFO  HomePage :48 - Verify that user is logged in successfully
+2019-05-26 11:05:723 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:177 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:82 INFO  HomePage :34 - click on add to cart button
+2019-05-26 11:05:461 INFO  HomePage :23 - click on hdd 320GB
+2019-05-26 11:05:591 INFO  HomePage :33 - click on add to cart
+2019-05-26 11:05:693 INFO  HomePage :28 - check if item is added successfully
+2019-05-26 11:05:401 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:926 INFO  HomePage :19 - enter email address
+2019-05-26 11:05:153 INFO  HomePage :24 - enter password
+2019-05-26 11:05:280 INFO  HomePage :29 - click on login button
+2019-05-26 11:05:423 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:380 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:89 INFO  HomePage :19 - click on sort by drop down
+2019-05-26 11:05:262 INFO  HomePage :24 - select Z to A
+2019-05-26 11:05:749 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:214 INFO  HomePage :19 - enter email address
+2019-05-26 11:05:383 INFO  HomePage :24 - enter password
+2019-05-26 11:05:526 INFO  HomePage :29 - click on login button
+2019-05-26 11:05:877 INFO  HomePage :48 - Verify that user is logged in successfully
+2019-05-26 11:05:928 INFO  HomePage :53 - click on apparel
+2019-05-26 11:05:766 INFO  HomePage :20 - Verify that User is on apparel page
+2019-05-26 11:05:766 INFO  HomePage :15 - Get Apparel Page Text
+2019-05-26 11:05:376 INFO  HomePage :63 - click on books
+2019-05-26 11:05:829 INFO  HomePage :20 - Verify that User is on Books Page
+2019-05-26 11:05:829 INFO  HomePage :15 - Get Books Page Text
+2019-05-26 11:05:47 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:794 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:538 INFO  HomePage :34 - click on add to cart button
+2019-05-26 11:05:646 INFO  HomePage :18 - get build you own page text
+2019-05-26 11:05:186 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:298 INFO  HomePage :24 - get computer page text
+2019-05-26 11:05:461 INFO  HomePage :44 - click on computers
+2019-05-26 11:05:194 INFO  HomePage :29 - click on desktop image
+2019-05-26 11:05:513 INFO  HomePage :39 - get desktop text
+2019-05-26 11:05:100 INFO  HomePage :58 - click on digital download
+2019-05-26 11:05:685 INFO  HomePage :20 - Verify that user is on digital download page
+2019-05-26 11:05:686 INFO  HomePage :15 - Get digital downloads page text
+2019-05-26 11:05:627 INFO  HomePage :48 - click on electronics
+2019-05-26 11:05:774 INFO  HomePage :19 - Verify that user is on electronics page
+2019-05-26 11:05:775 INFO  HomePage :14 - Get electronics page text
+2019-05-26 11:05:78 INFO  HomePage :73 - click on gift cards
+2019-05-26 11:05:13 INFO  HomePage :19 - Verify that user is on gifts cards page
+2019-05-26 11:05:14 INFO  HomePage :14 - Get gift cards page text
+2019-05-26 11:05:797 INFO  HomePage :68 - click on jewellery
+2019-05-26 11:05:269 INFO  HomePage :20 - Verify that user is on Jewellery Page
+2019-05-26 11:05:270 INFO  HomePage :15 - Get jewellery page text
+2019-05-26 11:05:741 INFO  HomePage :24 - click on login link
+2019-05-26 11:05:287 INFO  HomePage :34 - get welcome text
+2019-05-26 11:05:153 INFO  HomePage :29 - click on register link
+2019-05-26 11:05:02 INFO  HomePage :99 - get register page text
+2019-05-26 11:05:56 INFO  HomePage :29 - click on register link
+2019-05-26 11:05:682 INFO  HomePage :39 - click on female
+2019-05-26 11:05:831 INFO  HomePage :44 - enter first name
+2019-05-26 11:05:109 INFO  HomePage :49 - enter last name
+2019-05-26 11:05:310 INFO  HomePage :54 - select date of birth
+2019-05-26 11:05:586 INFO  HomePage :59 - select month of birth
+2019-05-26 11:05:847 INFO  HomePage :64 - select year of birth
+2019-05-26 11:05:113 INFO  HomePage :69 - enter auto email
+2019-05-26 11:05:113 INFO  HomePage :29 - random email generated
+2019-05-26 11:05:421 INFO  HomePage :84 - enter company name
+2019-05-26 11:05:619 INFO  HomePage :74 - enter password
+2019-05-26 11:05:743 INFO  HomePage :79 - enter confirm password
+2019-05-26 11:05:857 INFO  HomePage :94 - click on register button
+2019-05-26 11:05:928 INFO  HomePage :104 - get registration successful text

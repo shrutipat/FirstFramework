@@ -21,13 +21,19 @@ public class TestSuit extends TestBase {
     DesktopPage desktopPage = new DesktopPage();
     ComputerPage computerPage = new ComputerPage();
     LoginPage loginPage = new LoginPage();
+    ElectronicsPage electronicsPage = new ElectronicsPage();
+    GiftCardsPage giftCardsPage = new GiftCardsPage();
+    JewelleryPage jewelleryPage = new JewelleryPage();
+    BooksPage booksPage = new BooksPage();
+    ApparelPage apparelPage = new ApparelPage();
+    DigitalDownloadsPage digitalDownloadsPage = new DigitalDownloadsPage();
     BuildYourOwnPage buildYourOwnPage = new BuildYourOwnPage();
 
     static final Logger logger = Logger.getLogger(TestSuit.class);
 
 
     //From home page user should navigate to registration page successfully
-    @Test
+    @Test (groups = "navigationToPages")
     public void userShouldNavigateToRegistrationPageSuccessfully() {
         homePage.clickOnRegisterLink();
         String expectedText = "Register";
@@ -37,8 +43,68 @@ public class TestSuit extends TestBase {
         logger.debug("Hello World!");
     }
 
+
+    // From home page user should navigate to login page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToLoginPageSuccessfully() {
+        homePage.clickOnLoginLink();
+        String text = loginPage.getWelcomeText();
+        Assert.assertTrue(text.equals("Welcome, Please Sign In!"));
+    }
+
+    //From home page user should navigate to Electronics page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToElectronicsPageSuccessfully(){
+        homePage.clickOnElectronics();
+        Assert.assertTrue(electronicsPage.verifyThatUserIsOnElectronicsPage());
+    }
+
+    //From home page user should navigate to Books page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToBooksPageSuccessfully(){
+        homePage.clickOnBooks();
+        Assert.assertTrue(booksPage.verifyThatUserIsOnBooksPage());
+    }
+
+    //From home page user should navigate to Apparel page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToApparelPageSuccessfully(){
+        homePage.clickOnApparel();
+        Assert.assertTrue(apparelPage.verifyThatUserIsOnApparelPage());
+    }
+
+    //From home page user should navigate to GiftCards page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToGiftCardsPageSuccessfully(){
+        homePage.clickOnGiftCards();
+        Assert.assertTrue(giftCardsPage.verifyThatUserIsOnGiftCardsPage());
+    }
+
+    //From home page user should navigate to Jewellery page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToJewelleryPageSuccessfully(){
+        homePage.clickOnJewellery();
+        Assert.assertTrue(jewelleryPage.verifyThatUserIsOnJewelleryPage());
+    }
+
+    //From home page user should navigate to Jewellery page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToDigitalDownloadPageSuccessfully(){
+        homePage.clickOnDigitalDownloads();
+        Assert.assertTrue(digitalDownloadsPage.verifyThatUserIsOnDigitalDownloadsPage());
+    }
+
+    // From home page user should navigate to computer page successfully
+    @Test (groups = "navigationToPages")
+    public void userShouldNavigateToComputerPageSuccessfully() {
+        homePage.clickOnComputers();
+        String actualText = computerPage.getComputerText();
+        String expectedText = "Computers";
+        Assert.assertEquals(actualText, expectedText);
+    }
+
     //User should be able to register successfully
-    @Test
+    @Test (groups = "registration")
     public void userShouldRegisterSuccessfully() throws InterruptedException{
         homePage.clickOnRegisterLink();
         registrationPage.clickOnFemale();
@@ -58,19 +124,10 @@ public class TestSuit extends TestBase {
         String expectedText = "Your registration completed";
         String actualText = registrationPage.getRegistrationSuccessfulText();
         Assert.assertEquals(actualText, expectedText);
-
-    }
-
-    // From home page user should navigate to login page successfully
-    @Test
-    public void userShouldNavigateToLoginPageSuccessfully() {
-        homePage.clickOnLoginLink();
-        String text = loginPage.getWelcomeText();
-        Assert.assertTrue(text.equals("Welcome, Please Sign In!"));
     }
 
     //Login should fail and error message should appear when login is invalid
-    @Test
+    @Test (groups = "Login")
     public void loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid() {
         homePage.clickOnLoginLink();
         loginPage.enterEmail("abcd@abc.com");
@@ -80,17 +137,17 @@ public class TestSuit extends TestBase {
         org.junit.Assert.assertTrue("No customer account found", text.isDisplayed());
     }
 
-    // From home page user should navigate to computer page successfully
-    @Test
-    public void userShouldNavigateToComputerPageSuccessfully() {
-        homePage.clickOnComputers();
-        String actualText = computerPage.getComputerText();
-        String expectedText = "Computers";
-        Assert.assertEquals(actualText, expectedText);
+    @Test (groups = "Login")
+    public void userShouldLoginWithValidCredentials(){
+        homePage.clickOnLoginLink();
+        loginPage.enterEmail("neha@patel.com");
+        loginPage.enterPassword("nehapatel");
+        loginPage.clickLoginBtn();
+        Assert.assertTrue(loginPage.verifyThatUserIsLoggedInSuccessfully());
     }
 
     // User should navigate to desktop page successfully
-    @Test
+    @Test (groups = "navigationToPages")
     public void userShouldNavigateToDesktopPageSuccessfully() {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -100,7 +157,7 @@ public class TestSuit extends TestBase {
     }
 
     // User should navigate to build your own page successfully
-    @Test
+    @Test (groups = "basket")
     public void userShouldNavigateToBuildYourOwnPageSuccessfully() {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -112,7 +169,7 @@ public class TestSuit extends TestBase {
     }
 
     // Desktop item should be added to basket successfully
-    @Test
+    @Test (groups = "basket")
     public void desktopShouldAddToBasketSuccessfully() throws InterruptedException {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -129,7 +186,7 @@ public class TestSuit extends TestBase {
     }
 
 
-    @Test
+    @Test (groups = "sort")
     public void  sortByZtoAShouldWorkSuccessfullyOnDesktopPage() throws InterruptedException {
         homePage.clickOnComputers();
         computerPage.clickOnDesktopImage();
@@ -164,5 +221,4 @@ public class TestSuit extends TestBase {
             Assert.assertEquals(sortedNames.get(i), listZToA.get(i).getText());
         }
     }
-
 }
