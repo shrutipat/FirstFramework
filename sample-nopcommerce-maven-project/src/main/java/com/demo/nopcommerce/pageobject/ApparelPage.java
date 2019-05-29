@@ -9,7 +9,7 @@ public class ApparelPage extends Util {
 
     By apparelText = By.xpath("//h1[contains(text(), 'Apparel')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ApparelPage.class.getName());
 
     public String getApparelPageText(){
         log.info("Get Apparel Page Text");

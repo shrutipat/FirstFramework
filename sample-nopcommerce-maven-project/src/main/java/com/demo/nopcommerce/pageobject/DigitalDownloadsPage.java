@@ -9,7 +9,7 @@ public class DigitalDownloadsPage extends Util {
 
     By digitalDownloadsText = By.xpath("//h1[contains(text(), 'Digital downloads')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(DigitalDownloadsPage.class.getName());
 
     public String getDigitalDownloadsPageText(){
         log.info("Get digital downloads page text");

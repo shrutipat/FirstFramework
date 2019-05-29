@@ -13,7 +13,7 @@ public class DesktopPage extends Util {
     By addToCartBtn = By.xpath("//div[@class='item-grid']//div[1]//div[1]//div[2]//div[3]//div[2]//input[1]");
     By buildYourOwnText = By.xpath("//h1[contains(text(),'Build your own computer')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(DesktopPage.class.getName());
 
     public void clickOnSortByDropDown(){
         log.info("click on sort by drop down");

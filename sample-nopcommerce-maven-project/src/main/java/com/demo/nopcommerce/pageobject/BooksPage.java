@@ -9,7 +9,7 @@ public class BooksPage extends Util {
 
     By booksText = By.xpath("//h1[contains(text(), 'Books')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(BooksPage.class.getName());
 
     public String getBooksPageText(){
         log.info("Get Books Page Text");

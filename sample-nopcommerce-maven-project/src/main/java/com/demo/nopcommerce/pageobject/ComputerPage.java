@@ -12,7 +12,7 @@ public class ComputerPage extends Util {
     By noteBookImage = By.xpath("//div[@class='page-body']//div[2]//div[1]//div[1]//a[1]//img[1]");
     By softwareImage = By.xpath("//div[@class='master-wrapper-content']//div[3]//div[1]//div[1]//a[1]//img[1]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ComputerPage.class.getName());
 
     public void mouseOverComputer() {
      log.info("mouse over computers");

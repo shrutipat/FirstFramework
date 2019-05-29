@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class ElectronicsPage extends Util {
     By electronicsText = By.xpath("//h1[contains(text(), 'Electronics')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(ElectronicsPage.class.getName());
 
     public String getElectronicsPageText(){
         log.info("Get electronics page text");

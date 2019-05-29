@@ -13,7 +13,7 @@ public class LoginPage extends Util {
     By welcomeText = By.xpath("//h1[contains(text(),'Welcome, Please Sign In!')]");
     By successfulLoginText = By.xpath("//h2[contains(text(),'Welcome to our store')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(LoginPage.class.getName());
 
     public void enterEmail(String str) {
         log.info("enter email address");
@@ -53,4 +53,11 @@ public class LoginPage extends Util {
             return false;
         }
     }
+    public void loginToApplication(String email, String password) {
+        enterEmail(email);
+        enterPassword(password);
+        clickLoginBtn();
+    }
+
+
 }

@@ -2,6 +2,7 @@ package com.demo.nopcommerce.webpages;
 
 import com.demo.nopcommerce.pageobject.HomePage;
 import com.demo.nopcommerce.pageobject.LoginPage;
+import com.demo.nopcommerce.resources.testdata.TestData;
 import com.demo.nopcommerce.testbase.TestBase;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -26,11 +27,11 @@ public class LoginTest extends TestBase {
 
     }
 
-    @Test
-    public void loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid() {
+    @Test (dataProvider="inputs", dataProviderClass= TestData.class)
+    public void loginShouldFailAndErrorMessageShouldAppearWhenLoginIsInvalid(String email, String password) {
         homePage.clickOnLoginLink();
-        loginPage.enterEmail("abcd@abc.com");
-        loginPage.enterPassword("password");
+        loginPage.enterEmail(email);
+        loginPage.enterPassword(password);
         loginPage.clickLoginBtn();
         WebElement text = driver.findElement(By.xpath("//li[contains(text(),'No customer account found')]"));
         Assert.assertTrue("No customer account found", text.isDisplayed());

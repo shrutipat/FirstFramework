@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class GiftCardsPage extends Util {
     By giftCardsText = By.xpath("//h1[contains(text(), 'Gift Cards')]");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(GiftCardsPage.class.getName());
 
     public String getGiftCardsPageText(){
         log.info("Get gift cards page text");

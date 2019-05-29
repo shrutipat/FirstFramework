@@ -12,7 +12,7 @@ public class BuildYourOwnPage extends Util {
     By hdd_320GB = By.xpath("//input[@id='product_attribute_3_6']");
     By addToCartBtn = By.xpath("//input[@id='add-to-cart-button-1']");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(BuildYourOwnPage.class.getName());
 
     public String getBuildYourOwnText(){
         log.info("get build you own page text");

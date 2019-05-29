@@ -23,7 +23,7 @@ public class RegistrationPage extends Util {
     By registerText = By.xpath("//h1[contains(text(),'Register')]");
     By registrationSuccessfulText = By.xpath("//div[@class='result']");
 
-    private static final Logger log = LogManager.getLogger(HomePage.class.getName());
+    private static final Logger log = LogManager.getLogger(RegistrationPage.class.getName());
 
     public String randomEmail() {
         log.info("random email generated");

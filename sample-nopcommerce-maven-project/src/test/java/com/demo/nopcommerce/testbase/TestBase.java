@@ -18,12 +18,12 @@ public class TestBase extends BasePage {
     String baseUrl = loadProperty.getProperty("baseUrl");
     String time = loadProperty.getProperty("time");
 
-    @BeforeClass
+    @BeforeClass (alwaysRun = true)
     public static void setUpBeforeClass() {
         PropertyConfigurator.configure(System.getProperty("user.dir") + "\\src\\test\\java\\com\\demo\\nopcommerce\\resources\\configfile\\log4j.properties");
     }
 
-    @BeforeMethod
+    @BeforeMethod (alwaysRun = true)
     public void setUp() {
         browserSelector.selectBrowser(browser);
         driver.get(baseUrl);
@@ -32,7 +32,7 @@ public class TestBase extends BasePage {
 
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     public void tearDown() {
         driver.quit();
     }

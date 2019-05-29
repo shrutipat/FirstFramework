@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Practice TestSuite">
+    <test name="GroupsDemo">
+        <groups>
+            <define name="all">
+                <include name="sort"></include>
+                <include name="basket"></include>
+                <include name="navigationToPages"></include>
+                <include name="Login"></include>
+                <include name="registration"></include>
+            </define>
+            <define name="shopping">
+                <include name="login"></include>
+                <include name="register"></include>
+                <include name="basket"></include>
+                <include name="sort"></include>
+            </define>
+            <define name="loginOnly">
+                <include name="Login"></include>
+            </define>
+            <define name="navigateOnly">
+                <include name="navigationToPages"></include>
+            </define>
+            <run>
+                <include name="navigateOnly"></include>
+                <include name="shopping>"></include>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.demo.nopcommerce.webpages.TestSuit"></class>
+        </classes>
+    </test>
+</suite>
